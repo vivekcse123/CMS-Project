@@ -1,0 +1,59 @@
+.main{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    width: 90%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .heading{
+    width: 100%;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.main form{
+    width: 90%;
+    margin: 10px auto;
+}
+.main form label{
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+    opacity: 0.7;
+    padding: 10px 0px;
+}
+.main form input{
+    display: block;
+    padding: 15px;
+    width: 90%;
+}
+.main form select{
+    width: 90%;
+    padding: 15px;
+}
+.main form p-button{
+    display: block;
+    padding: 12px 0px;
+    width: 120px;
+}
+.facilities p-checkbox, .facilities label{
+    display: inline-flex;
+    font-size: 10px;
+}
+span{
+    margin: 0px 120px;
+    position: relative;
+    top: -50px;
+}
+.fail{
+    color: red;
+}
+.pass{
+    color: green;
+}

@@ -1,0 +1,15 @@
+<div class="admin">
+    <div class="profile">
+        <p>{{adminDetails.fname.charAt(0)}}</p>
+    </div>
+    <div class="data">
+        <ul>
+            <li>Name: {{adminDetails.fname}}</li>
+            <li>Email: {{adminDetails.email}}</li>
+            <li>Password: {{adminDetails.password}}</li>
+            <li>Token: {{adminDetails.token}}</li>
+            <br>
+            <p-button (click)="back()">Back to Dashboard</p-button>
+        </ul>
+    </div>
+</div>

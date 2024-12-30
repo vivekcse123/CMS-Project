@@ -1,0 +1,16 @@
+<div class="customers">
+    <h2>Customers Lists</h2>
+    <div class="customer" *ngFor = "let n of allCustomers">
+        <div class="logo">
+            <div class="icon">
+                <p><i class = "pi pi-user" style="font-size: 2rem;"></i></p>
+            </div>
+        </div>
+        <p>Name: {{n.fname}}</p>
+        <p>Email: {{n.email}}</p>
+        <p>Mobile: {{n.mobile}}</p>
+        <p>Created Date: {{n.createddate}}</p>
+        <p>Address: {{n.address}}</p>
+        <p-button label="View Details" (click)="ViewCustomer(n.id)"></p-button>
+    </div>
+</div>

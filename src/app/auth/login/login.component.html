@@ -1,0 +1,10 @@
+<div class="myForm">
+    <h1>Login</h1>
+    <form>
+        <input type="text" class="form-control" placeholder="Username" [(ngModel)] = 'uname' name = 'uname'>
+        <input type="password" class="form-control" placeholder="Password" [(ngModel)] = 'password' name = 'password'>
+        <button class="btn btn-primary" (click) = "Login()">Login</button>
+        <span>Don't have an account? <a href="signup">SignUp</a></span>
+        <p [class]="isCorrect">{{msg}}</p>
+    </form>
+</div>

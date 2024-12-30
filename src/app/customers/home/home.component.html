@@ -1,0 +1,45 @@
+<!-- <div class="main-area">
+    <div class="links">
+        <p-button (click)="displayImages()" size="large">Images</p-button>
+        <p-button (click)="displayVideos()" size="large">Videos</p-button>
+    </div>
+    <br>
+    <div [class]="isTrue">
+        <img *ngFor="let i of images;" src="{{i.path}}" alt="" width="300" height="300" [class]="isShow">
+        <img *ngFor="let i of videos;" src="{{i.path}}" alt="" width="300" height="300" [class]="isShow">
+    </div>
+</div> -->
+<div class="main-area">
+    <div class="loads">
+        <p-tabView>
+            <p-tabPanel header="Images" class="link">
+                <p>Wedding Images</p>
+                <img *ngFor="let i of images;" src="{{i.path}}" alt="" width="300" height="300" [class]="isShow">
+                <hr>
+                <p>Haldi Images</p>
+                <img *ngFor="let i of images;" src="{{i.path}}" alt="" width="300" height="300" [class]="isShow">
+                <hr>
+                <p>Engagement Images</p>
+                <img *ngFor="let i of images;" src="{{i.path}}" alt="" width="300" height="300" [class]="isShow">
+                <hr>
+                <p>Birthday Images</p>
+                <img *ngFor="let i of images;" src="{{i.path}}" alt="" width="300" height="300" [class]="isShow">
+                <hr>
+                <p>PreWedding Images</p>
+                <img *ngFor="let i of images;" src="{{i.path}}" alt="" width="300" height="300" [class]="isShow">
+                <hr>
+            </p-tabPanel>
+            <p-tabPanel header="Videos" class="link">
+                <img *ngFor="let i of videos;" src="{{i.path}}" alt="" width="300" height="300" [class]="isShow">
+            </p-tabPanel>
+            <p-tabPanel header="Notes" class="link">
+                <div class="mynotes">
+                    <ul *ngFor="let n of allnotes">
+                        <li>{{n.item}}</li>
+                        <span><p-button (click)="delete(n.id)" severity="danger"><i class="pi pi-trash"></i></p-button></span>
+                    </ul>
+                </div>
+            </p-tabPanel>
+        </p-tabView>
+    </div>
+</div>

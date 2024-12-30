@@ -1,0 +1,30 @@
+<div class="main">
+    <div class="heading">
+        <h1>Manage Your Customers</h1>
+    </div>
+    <div class="customers-header">
+        <div class="name">
+            <p>Name</p>
+        </div>
+        <div class="email">
+            <p>Email</p>
+        </div>
+        <div class="actions">
+            <p>Actions</p>
+        </div>
+    </div>
+    <div class="data">
+        <div class="content">
+            <table>
+                <tr *ngFor = "let c of allCustomers;">
+                    <td>{{c.fname}}</td>
+                    <td>{{c.email}}</td>
+                    <td>
+                        <a [routerLink]="['edit/', c.id]">Edit <i class="pi pi-user-edit"></i></a>
+                        <button (click) = "Delete(c.id)" severity="danger">Delete <i class="pi pi-trash"></i></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

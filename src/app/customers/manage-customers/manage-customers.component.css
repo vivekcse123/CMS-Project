@@ -1,0 +1,85 @@
+.main{
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 50px auto;
+    padding: 10px;
+    font-family: sans-serif;
+    height: 80vh;
+}
+.heading h1{
+    text-align: center;
+}
+.customers-header{
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.name, .email, .actions{
+    width: 33%;
+}
+.customers-header p{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.data{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: -20px auto;
+    max-height: 70vh;
+    overflow-x: auto;
+}
+.content{
+    width: 100%;
+    margin: 0px auto;
+    max-height: 75vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    position: relative;
+}
+table{
+    width: 100%;
+    margin: auto;
+} 
+table td{
+    padding: 22px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+table tr:nth-child(even){
+    background-color: rgb(122, 125, 125);
+}
+table tr:nth-child(odd){
+    background-color: rgb(79, 78, 78);
+}
+table td a{
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 13px;
+    color: white;
+    width: 100px;
+}
+table td button{
+    background-color: red;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border: none;
+}
+table td a:nth-child(1){
+    background-color: rgb(13, 89, 195);
+}
+table td a:nth-child(2){
+    background-color: rgb(226, 33, 45);
+}

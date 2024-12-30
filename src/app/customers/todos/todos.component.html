@@ -1,0 +1,33 @@
+<div class="main">
+    <div class="heading">
+        <h1>Todos</h1>
+        <span>(Add your important notes here....)</span>
+    </div>
+    <div class="todos">
+        <form [formGroup] = "addFrom">
+            <p-inputGroup>
+                <p-inputGroup>
+                <input type="text" pInputText placeholder="Enter your notes...." formControlName = 'item' name = 'item' id="demo"/>
+                <button type="button" pButton label="Add" (click)="add()"></button>
+                </p-inputGroup>
+            </p-inputGroup>
+        </form>
+        <div [class]="isTure">
+            <p>{{msg}}</p>
+        </div>
+       <div class="note">
+        <div class="point">
+            <p>Your all notes will be displayed here(refresh page):</p>
+        </div>
+        <div class="ref">
+            <p-button (click) = "refresh()"><i class="pi pi-replay" style="font-size: 1.5rem;"></i></p-button>
+        </div>
+       </div>
+    <div class="items">
+        <ul *ngFor = "let notes of allNotes">
+            <li>{{notes.item}}</li>
+            <li><p-button label="Delete" severity="danger" (click)="delete(notes.id)"></p-button></li>
+        </ul>
+    </div>
+    </div>
+</div>

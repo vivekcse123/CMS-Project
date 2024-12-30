@@ -1,0 +1,105 @@
+.main{
+    width: auto;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.header{
+    width: 99%;
+    background-color: black;
+    position: fixed;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+}
+.logo{
+    width: 15%;
+    font-weight: bolder;
+}
+.logo p{
+    margin: 15px 0px;
+    font-size: 25px;
+}
+.logo span{
+    font-size: 14px;
+    opacity: 0.7;
+    margin-bottom: -10px 0px;
+    position: relative;
+    top: -10px;
+}
+.search{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    width: 80%;
+    border-radius: 30px;
+    padding: 20px;
+}
+.profile{
+    width: 10%;
+}
+.profile p{
+    cursor: pointer;
+    font-size: 20px;
+}
+.profile .show{
+    width: 10.3%;
+    background-color: rgb(16, 14, 14);
+    z-index: 1;
+    position: fixed;
+    margin: 29px 1px;
+    text-align: left;
+    border: 1px solid black;
+    font-size: 16px;
+}
+.profile .show a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+.profile .show a:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    top: 110px;
+}
+.sidebar{
+    width: 15%;
+    background-color: rgb(28, 27, 27);
+    text-align: center;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    display: block;
+    font-size: 18px;
+}
+.sidebar a:hover{
+    background-color: black;
+}
+.loading-area{
+    width: 88%;
+    overflow-y: auto;
+}
+.active{
+    background-color: black;
+}

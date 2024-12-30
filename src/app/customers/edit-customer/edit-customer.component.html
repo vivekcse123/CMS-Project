@@ -1,0 +1,20 @@
+<div *ngIf="dataLoaded">
+<div class="myForm">
+    <div class="heading">
+        <h1>Update Customer</h1>
+    </div>
+    <form [formGroup] = "editForm">
+        <label for="float-input">Full Name:</label>
+        <input type="text" pInputText placeholder="Customer Name" formControlName = "fname"/>
+        <label for="float-input">Email:</label>
+        <input type="text" pInputText placeholder="Customer Mobile" formControlName = "email"/>
+        <label for="float-input">Mobile:</label>
+        <input type="text" pInputText placeholder="Customer Email" formControlName = "mobile"/>
+        <label for="float-input">Updated Date:</label>
+        <input type="text" pInputText placeholder="Updated Date" [(ngModel)] = "createddate" name = "createddate" formControlName = "createddate">
+        <label for="float-input">Address:</label>
+        <textarea rows="5" cols="50" pInputTextarea  placeholder="Customer address...." formControlName = "address"></textarea>
+        <p-button label="Update" (click) = "updateCustomer()"></p-button><span [class]="isTrue">{{msg}}</span>
+    </form>
+</div>
+</div>

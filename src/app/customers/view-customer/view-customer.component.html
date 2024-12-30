@@ -1,0 +1,34 @@
+<div class="main">
+   <div class="cust-details">
+    <p>Customer Details</p>
+    <div class="details">
+        <ul>
+            <li>Name: {{cust_record.fname}}</li>
+            <li>Email: {{cust_record.email}}</li>
+            <li>Mobile: {{cust_record.mobile}}</li>
+            <li>Address: {{cust_record.address}}</li>
+        </ul>
+    </div>
+   </div>
+   <div class="booking-record">
+    <p>Booking Details</p>
+    <div class="details">
+        <p-button (click) = "Show(cust_record.id)" severity="info" [raised]="true">Show Bookings</p-button>
+        <p-button (click) = "hide()" [raised]="true" >Hide Bookings</p-button>
+        <p-button (click) = "Back()" severity="help" [raised]="true">Back to Lists</p-button>
+        <div *ngIf = "Loaded">
+            <ul [class]="isTrue" *ngFor = "let b of cust_booking; let i = index;">
+                <h3>Booking no: {{i+1}}</h3><span><p-button severity="danger" (click)="deleteBooking(b.id)">Delete Booking</p-button></span>
+                <li>Customer Name: {{b.customername}}</li>
+                <li>Reception Name: {{b.functionname}}</li>
+                <li>Facilities: {{b.facilities}}</li>
+                <li>Booking Date: {{b.bookingdate}}</li>
+                <li>Reception Date: {{b.functiondate}}</li>
+                <li>Total Amount: {{b.totalamount}}</li>
+                <li>Amount Paid: {{b.amountpaid}}</li>
+                <li>Remaining Amount: {{b.remainingamount}}</li>
+                <li>Paid Status: {{b.paidstatus}}</li>
+            </ul>
+        </div>
+   </div>
+</div>

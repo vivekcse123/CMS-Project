@@ -1,0 +1,18 @@
+<div class="myForm">
+    <div class="heading">
+        <h1>Create New Customer</h1>
+    </div>
+    <form [formGroup] = "createFrom">
+        <label for="float-input">Full Name:</label>
+        <input type="text" pInputText placeholder="Customer Name" formControlName = "fname"/>
+        <label for="float-input">Email:</label>
+        <input type="text" pInputText placeholder="Customer Email" formControlName = "email"/>
+        <label for="float-input">Mobile:</label>
+        <input type="text" pInputText placeholder="Customer Mobile" formControlName = "mobile"/>
+        <label for="float-input">Created Date:</label>
+        <input type="text" pInputText placeholder="Created Date" [(ngModel)] = "todays_date" name = "todays_date" formControlName = "createddate">
+        <label for="float-input">Address:</label>
+        <textarea rows="5" cols="50" pInputTextarea  placeholder="Customer address...." formControlName = "address"></textarea>
+        <p-button label="Create" (click) = "createCustomer()"></p-button><span [class]="isTrue">{{msg}}</span>
+    </form>
+</div>

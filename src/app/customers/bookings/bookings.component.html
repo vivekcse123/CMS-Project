@@ -1,0 +1,40 @@
+<div class="main">
+    <div class="heading">
+        <h1>Bookings for Customers</h1>
+    </div>
+    <form [formGroup]="bookingForm">
+        <label for="float-input">Select Customer</label>
+        <select formControlName = "customername" name = "customername" (change)="setId($event)" [required]="true">
+            <option value="">Select Customer</option>
+            <option *ngFor = "let c of customers;" value="{{c.fname}}">{{c.fname}}</option>
+        </select>
+        <label for="float-input">Customer Id</label>
+        <select formControlName="custid" id="cid" name="custid">
+            <option value="{{custid}}">{{custid}}</option>
+        </select>
+        <label for="float-input">Reception Name:</label>
+        <select name="" id="" formControlName="functionname" name=""functionname [required]="true">
+            <option value="">Select reception....</option>
+            <option *ngFor = "let r of receptions" value="{{r.name}}">{{r.name}}</option>
+        </select>
+        <label for="float-input">Facilities:</label>
+        <select formControlName="facilities" name = "facilities" multiple required>
+            <option value="">Select Facilities</option>
+            <option  *ngFor = "let f of facilities" value="{{f.name}}"><input type="checkbox" checked>{{f.name}}</option>
+        </select>
+        <label for="float-input">Booking Date:</label>
+        <input type="text" pInputText placeholder="Booking date" formControlName="bookingdate" name="bookingdate" [(ngModel)]="todays_date" />
+        <label for="float-input">Reception Date:</label>
+        <input type="date" pInputText placeholder="Booking date" formControlName="functiondate" name="functiondate"/>
+        <label for="float-input">Total Amount:</label>
+        <input type="text" pInputText placeholder="Total Amount" formControlName="totalamount" name="totalamount"/>
+        <label for="float-input">Paid Amount:</label>
+        <input type="text" pInputText placeholder="Paid Amount" formControlName="amountpaid" name="amountpaid" (change)="remainAmount($event)"/>
+        <label for="float-input">Remaining Amount:</label>
+        <input type="text" pInputText placeholder="Remaining Amount" formControlName="remainingamount" name="remainingamount" [(ngModel)]="rA" />
+        <label for="float-input">Paid Status:</label>
+        <p-checkbox [binary]="true" inputId="binary" formControlName="paidstatus"  name="paidstatus"></p-checkbox>
+        <p-button label="" (click) = "CreateBooking()">Book</p-button>
+        <span [class]="isTrue">{{msg}}</span>
+    </form>
+</div>

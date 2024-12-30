@@ -1,0 +1,50 @@
+.main{
+    width: 90%;
+    margin: 30px auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.cust-details p{
+    font-size: 30px;
+    font-family: sans-serif;
+    border-left: 5px solid red;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.booking-record p{
+    font-size: 30px;
+    font-family: sans-serif;
+    border-left: 5px solid blue;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.details ul{
+    list-style: none;
+}
+.details ul li{
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    font-size: 20px;
+}
+.details ul li:nth-child(odd){
+    background-color: rgb(153, 159, 159);
+}
+.details ul li:nth-child(even){
+    background-color: rgb(198, 203, 200);
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.p-button{
+    margin: 0px 2px;
+    padding: 10px;
+}
+h3{
+    padding: 5px;
+    margin: 5px 0px;
+}

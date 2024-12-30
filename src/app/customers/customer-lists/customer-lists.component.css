@@ -1,0 +1,39 @@
+.customers{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.customer{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: inline-block;
+    margin: 10px 10px;
+}
+.logo {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logo .icon{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 100px;
+    font-size: 20px;
+}
+.booking-details{
+    width: 30%;
+    margin: 10px 20px;
+    background-color: aquamarine;
+}

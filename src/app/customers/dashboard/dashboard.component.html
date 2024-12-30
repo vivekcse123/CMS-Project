@@ -1,0 +1,36 @@
+<div class="main">
+    <div class="header">
+        <div class="logo">
+            <p>CMS</p>
+            <span>Customer Management System</span>
+        </div>
+        <div class="search">
+            <form [formGroup] = "searchFrom" (ngSubmit)="onSubmit()">
+                <input type="text" pInputText placeholder="Search Customer by Name...." formControlName = "inputvalue" />
+            </form>
+        </div>
+        <div class="profile">
+            <div class="name">
+                <p (click) = "Show()">{{name.charAt(0).toUpperCase() + name.slice(1)}} <i [class]="isUp"></i></p>
+            </div>
+            <div class="show" *ngIf="isOpen">
+                    <a href="admin/{{adminId}}/dashboard/home">{{name.charAt(0).toUpperCase() + name.slice(1)}}(admin)</a>
+                    <a href="admin/{{adminId}}/dashboard/viewadmin">View Profile <i class = "pi pi-file-edit"></i></a>
+                    <a href="login">Logout <i class = " pi pi-sign-out"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="sidebar">
+           <a href="admin/{{adminId}}/dashboard/home" >Dashboard</a>
+           <a href="admin/{{adminId}}/dashboard/lists" >Customers Lists</a>
+           <a href="admin/{{adminId}}/dashboard/create" >Create Customer</a>
+           <a href="admin/{{adminId}}/dashboard/manage" >Manage Customer</a>
+           <a href="admin/{{adminId}}/dashboard/booking" >Bookings</a>
+           <a href="admin/{{adminId}}/dashboard/todos" >Todos</a>
+        </div>
+        <div class="loading-area">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

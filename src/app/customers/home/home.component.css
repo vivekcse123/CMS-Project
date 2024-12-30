@@ -1,0 +1,46 @@
+.main-area{
+    width: 90%;
+    margin: 10px auto;
+    height: 90vh;
+}
+.links{
+    position: fixed;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: balck;
+}
+img{
+    width: 24%;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin: 5px 5px;
+}
+.p-tabview-panels {
+    font-size: 30px;
+}
+.loads{
+    max-height: 80vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.mynotes ul{
+    list-style: none;
+    background-color: rgb(129, 131, 130);
+    border-radius: 5px;
+}
+.mynotes li{
+    display: inline-block;
+    padding: 15px;
+    margin: 0px 10px;
+    color: white;
+}
+.mynotes span{
+    position: relative;
+    top:-10px;
+    border-radius: 5px;
+}

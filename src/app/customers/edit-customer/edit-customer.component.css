@@ -1,0 +1,56 @@
+.myForm{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.myForm .heading{
+    width: 100%;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.myForm .heading h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.myForm form{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+.myForm form label{
+    display: block;
+    margin: 0px 3px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.myForm form input{
+    width: 90%;
+    margin: 15px 0px;
+    padding: 15px;
+}
+.myForm form textarea{
+    width: 90%;
+    padding: 10px 10px;
+}
+.myForm form p-button{
+    border-radius: 10px;
+    padding: 10px 0px;
+    display: block;
+}
+.myForm form span{
+    margin: 0px 120px;
+    position: relative;
+    top: -45px;
+}
+.fail{
+    color: red;
+}
+.pass{
+    color: green;
+}

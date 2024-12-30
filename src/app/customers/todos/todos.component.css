@@ -1,0 +1,71 @@
+.main{
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.heading{
+    display: flex;
+    gap: 10px;
+}
+.heading h1{
+    margin: 10px 20px;
+}
+.heading span{
+    margin: 23px -20px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.todos{
+    width: 90%;
+    margin: 30px 20px;
+}
+.todos input{
+    width: 80%;
+    padding: 20px;
+}
+.todos p-button{
+    padding: 20px;
+    width: 200px;
+}
+.note{
+    margin: 10px 10px;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+.note .point p{
+    margin: 5px 0px;
+}
+.items{
+    margin: 30px 10px;
+    width: 90%;
+    height: auto;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.items ul{
+    list-style: none;
+}
+.items ul li{
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+.items ul li:nth-child(even){
+    background-color: rgb(129, 133, 132);
+}
+.items ul li:nth-child(odd){
+    background-color: rgb(97, 100, 100);
+}
+.fail{
+    padding: 10px;
+    position: relative;
+    color: red;
+}
+.pass{
+    color: green;
+    padding: 10px;
+    position: relative;
+}
