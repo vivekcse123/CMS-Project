@@ -1,0 +1,361 @@
+{
+  "admins": [
+    {
+      "id": "30cb",
+      "fname": "Revathi Satya",
+      "email": "revathi123@gmail.com",
+      "password": "revu123",
+      "cpassword": "revu123",
+      "token": "Satya2024"
+    },
+    {
+      "id": "9133",
+      "fname": "Vivek Verma",
+      "email": "vermavivek0402@gmail.com",
+      "password": "vivu123",
+      "cpassword": "vivu123",
+      "token": "Verma2024"
+    },
+    {
+      "id": "e2ed",
+      "fname": "Tapash Kumar",
+      "email": "tapash123@gmail.com",
+      "password": "tapash123",
+      "cpassword": "tapash123",
+      "token": "Kumar2024"
+    },
+    {
+      "id": "ff2f",
+      "fname": "Md Arif",
+      "email": "md@gmail.com",
+      "password": "Arif@#123",
+      "cpassword": "Arif@#123",
+      "token": "Arif2024"
+    },
+    {
+      "id": "5bc1",
+      "fname": "Vedanti Gedam",
+      "email": "vedu123@gmail.com",
+      "password": "vedu123",
+      "cpassword": "vedu123",
+      "token": "Gedam2024"
+    },
+    {
+      "id": "65dc",
+      "fname": "Revathi Satya",
+      "email": "rockysatya12@gmail.com",
+      "password": "Revathi@456",
+      "cpassword": "Revathi@456",
+      "token": "Satya2024"
+    }
+  ],
+  "customers": [
+    {
+      "fname": "Revathi Satya",
+      "email": "revathisatya12@gmail.com",
+      "mobile": "6303289441",
+      "createddate": "Tue Mar 19 2024",
+      "address": "Tuni Andhra Pradesh, 531126",
+      "id": "58d8"
+    },
+    {
+      "fname": "Aman Gupta",
+      "email": "ammu123@gmail.com",
+      "mobile": "9304738197",
+      "createddate": "Fri Mar 08 2024",
+      "address": "Ranchi Jharkhand 228151",
+      "id": "67bc"
+    },
+    {
+      "fname": "Shriansh Kumar",
+      "email": "shri12@gmail.com",
+      "mobile": "3428495870",
+      "createddate": "Fri Mar 08 2024",
+      "address": "Siwan Bihar 841227",
+      "id": "e028"
+    }
+  ],
+  "booking": [
+    {
+      "id": "dc40",
+      "customername": "Revathi Satya",
+      "custid": "58d8",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "21/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": "",
+      "paidstatus": ""
+    },
+    {
+      "id": "6f3e",
+      "customername": "Tapsh Gosh",
+      "custid": "9e71",
+      "functionname": "Marriage",
+      "facilities": "",
+      "bookingdate": "23/02/2024",
+      "functiondate": "2024-02-29",
+      "totalamount": "5000",
+      "amountpaid": "2000",
+      "remainingamount": "3000",
+      "paidstatus": true
+    },
+    {
+      "id": "4ac5",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "4b40",
+      "customername": "Aman Gupta",
+      "custid": "67bc",
+      "functionname": "Marriage",
+      "facilities": [
+        "",
+        "",
+        ""
+      ],
+      "bookingdate": "24/02/2024",
+      "functiondate": "2024-02-29",
+      "totalamount": "5000",
+      "amountpaid": "1000",
+      "remainingamount": 4000,
+      "paidstatus": true
+    },
+    {
+      "id": "d3fa",
+      "customername": "Aman Gupta",
+      "custid": "67bc",
+      "functionname": "Engagement",
+      "facilities": [
+        "Drone Camera",
+        "Drone Camera & Normal Camera",
+        "Lightings",
+        "DJ"
+      ],
+      "bookingdate": "24/02/2024",
+      "functiondate": "2024-03-01",
+      "totalamount": "3000",
+      "amountpaid": "1000",
+      "remainingamount": 2000,
+      "paidstatus": true
+    },
+    {
+      "id": "ff10",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "a5b4",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "ffc8",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "6cb7",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "ade6",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "18a6",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "2054",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "c824",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "b950",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "0339",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "bd0c",
+      "customername": "Aman Gupta",
+      "custid": "67bc",
+      "functionname": "Wedding Shoots",
+      "facilities": [
+        "Drone Camera",
+        "Normal Camera",
+        "Candid Pictures"
+      ],
+      "bookingdate": "24/02/2024",
+      "functiondate": "2024-03-01",
+      "totalamount": "5000",
+      "amountpaid": "2000",
+      "remainingamount": 3000,
+      "paidstatus": true
+    },
+    {
+      "id": "f175",
+      "customername": "",
+      "custid": "",
+      "functionname": "",
+      "facilities": "",
+      "bookingdate": "24/02/2024",
+      "functiondate": "",
+      "totalamount": "",
+      "amountpaid": "",
+      "remainingamount": 0,
+      "paidstatus": ""
+    },
+    {
+      "id": "2f39",
+      "customername": "Aman Gupta",
+      "custid": "67bc",
+      "functionname": "Haldi",
+      "facilities": [
+        "Drone Camera",
+        "Candid Pictures"
+      ],
+      "bookingdate": "04/03/2024",
+      "functiondate": "2024-03-21",
+      "totalamount": "5000",
+      "amountpaid": "2000",
+      "remainingamount": 3000,
+      "paidstatus": true
+    },
+    {
+      "id": "b0bc",
+      "customername": "Md Arif",
+      "custid": "763b",
+      "functionname": "Engagement",
+      "facilities": [
+        "Drone Camera",
+        "Normal Camera",
+        "Candid Pictures"
+      ],
+      "bookingdate": "09/03/2024",
+      "functiondate": "2024-03-23",
+      "totalamount": "10000",
+      "amountpaid": "2000",
+      "remainingamount": 8000,
+      "paidstatus": ""
+    }
+  ],
+  "notes": [
+    {
+      "id": "8aa6",
+      "item": "Camera aur Drone camera dost ke reception me dena hain"
+    },
+    {
+      "id": "9f1c",
+      "item": "Kal sultanpur booking ke liye 2 person bhejna hain"
+    },
+    {
+      "id": "b06f",
+      "item": "Kal sultanpur booking ke liye 2 person bhejna hain"
+    }
+  ]
+}

@@ -2,17 +2,13 @@
     "version": 2,
     "builds": [
       {
-        "src": "angular-project/**/*",
-        "use": "@vercel/angular"
-      },
-      {
         "src": "api/json-server/index.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
-        "src": "/api/json-server",
+        "src": "/admin/(.*)",
         "dest": "/api/json-server/index.js"
       }
     ]
