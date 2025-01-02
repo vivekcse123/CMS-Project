@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "angular-project/**/*",
+        "use": "@vercel/angular"
+      },
+      {
+        "src": "api/json-server/index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/json-server",
+        "dest": "/api/json-server/index.js"
+      }
+    ]
+  }
+  
