@@ -23,7 +23,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "CMS-Booking-Management-System",
             "outputPath": "dist/my-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
