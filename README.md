@@ -10,3 +10,4 @@ The following are steps to start the application:
 6. run your application: ng serve
 7. Add one more terminal and redirect to cd myApp -> src -> assets -> data
 8. Now start the server: npx json-server --watch db.json
+9. Hit the URL localhost:4200 on your friendly browser such chrome.
